@@ -90,6 +90,7 @@
                     return;
                 }
 
+                // game is over here
                 if (retryCount >= maxNumberOfRetries)
                 {
                     Console.WriteLine("Game over");
